@@ -1,0 +1,17 @@
+# ComfyUI Setup Configuration
+# Lines starting with # are comments
+
+# Python version (must be installed)
+# Options: 3.10, 3.11, 3.12
+PYTHON_VERSION=3.12
+
+# CUDA version for PyTorch wheels
+# Options: cu118, cu121, cu124, cu128, cpu
+# 
+# Match to your nvidia-smi CUDA version (or lower):
+#   nvidia-smi 11.8 → cu118
+#   nvidia-smi 12.1 → cu121 or cu118
+#   nvidia-smi 12.4+ → cu124, cu121, or cu118
+#   nvidia-smi 12.8+ → cu128, cu124, cu121, or cu118
+#
+CUDA_VERSION=cu128
